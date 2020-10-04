@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamer Zone | Store</title>
+    <link rel="icon" href="./assets/img/favicon.ico" type="image/icon type">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <script src="./assets/js/cart.js" async></script>
+    <script src="./assets/js/search.js" async></script>
+</head>
+
+<body>
+    <!--Header Start-->
+    <section class="header">
+        <div class="content">
+            <div>
+                <h2>Gaming Zone</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste ratione, eius nihil velit tempore
+                    quos
+                    possimus dolorem consequuntur vero officiis assumenda iusto, nisi quod, fugiat nam nostrum corrupti
+                    exercitationem saepe? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus qui, minima
+                    voluptatum ratione labore architecto dolor fuga repellendus reiciendis possimus veniam, deleniti
+                    perferendis in quam nobis nulla illo quia aut?
+                </p>
+                <a href="#games">Explore</a>
+            </div>
+        </div>
+        <div class="imgBox">
+            <img src="./assets/img/watchdogs.png" alt="">
+        </div>
+        <ul class="nav" id='nav'>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#" class="active">Game Store</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <ul class="social">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+    </section>
+    <span class="menuIcon" id='toggle' onclick="menuToggle()"></span>
+    <!--Header End-->
+
+    <!--Games Start-->
+    <section class="gamesList" id='games'>
+        <h2 class="heading">Explore the Games</h2>
+        <p class="text">
+            Search - Buy - Play
+        </p>
+        <div class="container">
+            <div id="searchWrapper">
+                <input type="text" name="searchBar" id="searchBar" placeholder="search for a game" />
+            </div>
+            <ul id="gamesList"></ul>
+        </div>
+    </section>
+    <!--Game End-->
+
+    <!--Cart Start-->
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+    <!--Cart End-->
+
+    <!--Footer Start-->
+    <section class="footer">
+        <p class="text">Design & Developed by IEEESB-MMMUT</p>
+        <ul>
+            <p class="text">Follow us on : </p>
+            <li><a href="#"><i class="fa fa-lg fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-lg fa-twitter-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-lg fa-instagram"></i></a></li>
+        </ul>
+    </section>
+    <!--Footer End-->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
